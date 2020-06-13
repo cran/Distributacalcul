@@ -1,3 +1,19 @@
+#   Distributacalcul 0.2.2
+## New features
++   Added Pareto PDF and CDF.
++   Updated IG VaR from 'statmod' package.
+
+## Bug fixed
++   Updated URL in description file to github.io site.
+
+#   Distributacalcul 0.2.1
+Unremarkable release which updates the readme.
+
+## Bug fixes
++   Updated table of functions.
++   Fixed English grammar mistake in readme example.
++   Updated instructions for downloading the package.
+
 #   Distributacalcul 0.2.0
 ##  New features
 +   Added the expected value and variance of the Poisson distribution as functions for eventual addition to Shiny application.
