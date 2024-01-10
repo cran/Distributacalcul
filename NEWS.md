@@ -1,3 +1,14 @@
+#   Distributacalcul 0.4.0
+##  Bug fixes
++   Removed vignette and shiny components to republish to CRAN
+
+
+#   Distributacalcul 0.3.1
+##  Bug fixes
++   Changed location of translations file to not be ignored when built and and published.
++   Should avoid issue I'm getting running the visualisation functions.
+
+
 #   Distributacalcul 0.3.0
 ##  Significant structural change
 +   Changed syntax of all package functions (see README for summary of new syntax).

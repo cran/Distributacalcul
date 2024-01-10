@@ -41,15 +41,13 @@ TVatRErlang(kap, shape, rate = 1/scale, scale = 1/rate)
 mgfErlang(t, shape, rate = 1/scale, scale = 1/rate)
 }
 \arguments{
-\item{x}{vector of quantiles.}
+\item{x, q}{vector of quantiles.}
 
 \item{shape}{shape parameter \eqn{n}{n}, must be a positive integer.}
 
 \item{rate}{rate parameter \eqn{\beta}{beta}, must be positive.}
 
 \item{scale}{alternative parameterization to the rate parameter, scale = 1 / rate.}
-
-\item{q}{vector of quantiles.}
 
 \item{lower.tail}{logical; if TRUE (default), probabilities are
     \eqn{P[X \le x]}, otherwise, \eqn{P[X > x]}.}
@@ -67,18 +65,18 @@ mgfErlang(t, shape, rate = 1/scale, scale = 1/rate)
 \value{
 Function :
  \itemize{
- \item{\code{\link{dErlang}}}{ gives the probability density function (PDF).}
- \item{\code{\link{pErlang}}}{ gives the cumulative density function (CDF).}
- \item{\code{\link{expValErlang}}}{ gives the expected value.}
- \item{\code{\link{varErlang}}}{ gives the variance.}
- \item{\code{\link{kthMomentErlang}}}{ gives the kth moment.}
- \item{\code{\link{expValLimErlang}}}{ gives the limited mean.}
- \item{\code{\link{expValTruncErlang}}}{ gives the truncated mean.}
- \item{\code{\link{stopLossErlang}}}{ gives the stop-loss.}
- \item{\code{\link{meanExcessErlang}}}{ gives the mean excess loss.}
- \item{\code{\link{VatRErlang}}}{ gives the Value-at-Risk.}
- \item{\code{\link{TVatRErlang}}}{ gives the Tail Value-at-Risk.}
- \item{\code{\link{mgfErlang}}}{ gives the moment generating function (MGF).}
+ \item \code{\link{dErlang}}  gives the probability density function (PDF).
+ \item \code{\link{pErlang}}  gives the cumulative density function (CDF).
+ \item \code{\link{expValErlang}}  gives the expected value.
+ \item \code{\link{varErlang}}  gives the variance.
+ \item \code{\link{kthMomentErlang}}  gives the kth moment.
+ \item \code{\link{expValLimErlang}}  gives the limited mean.
+ \item \code{\link{expValTruncErlang}}  gives the truncated mean.
+ \item \code{\link{stopLossErlang}}  gives the stop-loss.
+ \item \code{\link{meanExcessErlang}}  gives the mean excess loss.
+ \item \code{\link{VatRErlang}}  gives the Value-at-Risk.
+ \item \code{\link{TVatRErlang}}  gives the Tail Value-at-Risk.
+ \item \code{\link{mgfErlang}}  gives the moment generating function (MGF).
  }
  Invalid parameter values will return an error detailing which parameter is problematic.
 }

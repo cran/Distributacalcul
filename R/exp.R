@@ -5,8 +5,7 @@
 #'
 #' @details
 #' The Exponential distribution with rate parameter \eqn{\beta}{b} has density:
-#'   \deqn{f\left(x\right) = \frac{1}{\beta}\textrm{e}^{-\beta x}}%
-#'   {f(x) = b^a e^{-b x}}
+#'   \deqn{f\left(x\right) = \frac{1}{\beta}\textrm{e}^{-\beta x}}{f(x) = b^a e^{-b x}}
 #' for \eqn{x \in \mathcal{R}^+}{x > 0}, \eqn{\beta > 0}{b > 0}.
 #'
 #' @template rate-template
@@ -15,16 +14,16 @@
 #' @return
 #' Function :
 #'   \itemize{
-#'     \item{\code{\link{expValExp}}}{ gives the expected value.}
-#'     \item{\code{\link{varExp}}}{ gives the variance.}
-#'     \item{\code{\link{kthMomentExp}}}{ gives the kth moment.}
-#'     \item{\code{\link{expValLimExp}}}{ gives the limited mean.}
-#'     \item{\code{\link{expValTruncExp}}}{ gives the truncated mean.}
-#'     \item{\code{\link{stopLossExp}}}{ gives the stop-loss.}
-#'     \item{\code{\link{meanExcessExp}}}{ gives the mean excess loss.}
-#'     \item{\code{\link{VatRExp}}}{ gives the Value-at-Risk.}
-#'     \item{\code{\link{TVatRExp}}}{ gives the Tail Value-at-Risk.}
-#'     \item{\code{\link{mgfExp}}}{ gives the moment generating function (MGF).}
+#'     \item \code{\link{expValExp}}  gives the expected value.
+#'     \item \code{\link{varExp}}  gives the variance.
+#'     \item \code{\link{kthMomentExp}}  gives the kth moment.
+#'     \item \code{\link{expValLimExp}}  gives the limited mean.
+#'     \item \code{\link{expValTruncExp}}  gives the truncated mean.
+#'     \item \code{\link{stopLossExp}}  gives the stop-loss.
+#'     \item \code{\link{meanExcessExp}}  gives the mean excess loss.
+#'     \item \code{\link{VatRExp}}  gives the Value-at-Risk.
+#'     \item \code{\link{TVatRExp}}  gives the Tail Value-at-Risk.
+#'     \item \code{\link{mgfExp}}  gives the moment generating function (MGF).
 #'   }
 #' Invalid parameter values will return an error detailing which parameter is problematic.
 #'

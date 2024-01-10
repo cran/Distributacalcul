@@ -1,8 +1,8 @@
 Package: Distributacalcul
 Type: Package
 Title: Probability Distribution Functions
-Version: 0.3.0
-Date: 2020-09-11
+Version: 0.4.0
+Date: 2024-01-08
 Authors@R: c(
     person("Alec James", "van Rassel", email = "alec.van-rassel.1@ulaval.ca",
             role = c("aut", "cre", "cph")), 
@@ -26,16 +26,12 @@ License: MIT + file LICENSE
 URL: https://alec42.github.io/Distributacalcul_Package/
 BugReports: https://github.com/alec42/Distributacalcul_Package/issues
 Encoding: UTF-8
-LazyData: true
-Imports: statmod, stats, shiny, dplyr, ggplot2, plotly, tippy,
-        shinyWidgets, shinydashboardPlus, shinydashboard, rlang,
-        shiny.i18n
-RoxygenNote: 7.0.2
+Imports: statmod, stats, dplyr, rlang
+RoxygenNote: 7.2.3
 Suggests: learnr, knitr, rmarkdown, spelling, testthat
 Language: en-CA
-VignetteBuilder: knitr, rmarkdown
 NeedsCompilation: no
-Packaged: 2020-09-11 11:40:47 UTC; Alec
+Packaged: 2024-01-09 14:54:53 UTC; alecjvanrassel
 Author: Alec James van Rassel [aut, cre, cph],
   Gabriel Crépeault-Cauchon [aut, ccp],
   Étienne Marceau [tch, sad],
@@ -46,4 +42,4 @@ Author: Alec James van Rassel [aut, cre, cph],
   Marc-André Devost [ccp]
 Maintainer: Alec James van Rassel <alec.van-rassel.1@ulaval.ca>
 Repository: CRAN
-Date/Publication: 2020-09-11 12:00:02 UTC
+Date/Publication: 2024-01-10 14:03:16 UTC

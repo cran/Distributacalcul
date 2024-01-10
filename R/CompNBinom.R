@@ -8,10 +8,10 @@
 #' @details
 #' The compound negative binomial distribution has density ....
 #'
+#' @param x vector of quantiles
 #' @template size-prob-negbinom-template
 #' @template distr_severity-template
 #' @template k0-template
-#' @template x-template
 #' @template shape-template
 #' @template rate-template
 #' @template scale-template
@@ -20,11 +20,11 @@
 #' @return
 #' Function :
 #'   \itemize{
-#'     \item{\code{\link{pCompNBinom}}}{ gives the cumulative density function.}
-#'     \item{\code{\link{expValCompNBinom}}}{ gives the expected value.}
-#'     \item{\code{\link{varCompNBinom}}}{ gives the variance.}
-#'     \item{\code{\link{TVatRCompNBinom}}}{ gives the Tail Value-at-Risk.}
-#'     \item{\code{\link{VatRCompNBinom}}}{ gives the Value-at-Risk.}
+#'     \item \code{\link{pCompNBinom}}  gives the cumulative density function.
+#'     \item \code{\link{expValCompNBinom}}  gives the expected value.
+#'     \item \code{\link{varCompNBinom}}  gives the variance.
+#'     \item \code{\link{TVatRCompNBinom}}  gives the Tail Value-at-Risk.
+#'     \item \code{\link{VatRCompNBinom}}  gives the Value-at-Risk.
 #'   }
 #' Returned values are approximations for the cumulative density function,
 #' TVatR, and VatR.

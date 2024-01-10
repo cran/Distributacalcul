@@ -62,7 +62,7 @@ TVatRCompNBinom(
 )
 }
 \arguments{
-\item{x}{vector of quantiles.}
+\item{x}{vector of quantiles}
 
 \item{size}{Number of successful trials.}
 
@@ -89,11 +89,11 @@ TVatRCompNBinom(
 \value{
 Function :
   \itemize{
-    \item{\code{\link{pCompNBinom}}}{ gives the cumulative density function.}
-    \item{\code{\link{expValCompNBinom}}}{ gives the expected value.}
-    \item{\code{\link{varCompNBinom}}}{ gives the variance.}
-    \item{\code{\link{TVatRCompNBinom}}}{ gives the Tail Value-at-Risk.}
-    \item{\code{\link{VatRCompNBinom}}}{ gives the Value-at-Risk.}
+    \item \code{\link{pCompNBinom}}  gives the cumulative density function.
+    \item \code{\link{expValCompNBinom}}  gives the expected value.
+    \item \code{\link{varCompNBinom}}  gives the variance.
+    \item \code{\link{TVatRCompNBinom}}  gives the Tail Value-at-Risk.
+    \item \code{\link{VatRCompNBinom}}  gives the Value-at-Risk.
   }
 Returned values are approximations for the cumulative density function,
 TVatR, and VatR.

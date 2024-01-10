@@ -17,21 +17,17 @@ varUnifD(min = 0, max = 1)
 expValUnifD(min = 0, max = 1)
 }
 \arguments{
-\item{q}{vector of quantiles.}
+\item{min, max}{lower and upper limits of the distribution.  Must be finite.}
 
-\item{min}{lower and upper limits of the distribution.  Must be finite.}
-
-\item{max}{lower and upper limits of the distribution.  Must be finite.}
-
-\item{x}{vector of quantiles.}
+\item{x, q}{vector of quantiles.}
 }
 \value{
 Function :
   \itemize{
-    \item{\code{\link{dUnifD}}}{ gives the probability density function (PDF).}
-    \item{\code{\link{pUnifD}}}{ gives the cumulative density function (CDF).}
-    \item{\code{\link{expValUnifD}}}{ gives the expected value.}
-    \item{\code{\link{varUnifD}}}{ gives the variance.}
+    \item \code{\link{dUnifD}}  gives the probability density function (PDF).
+    \item \code{\link{pUnifD}}  gives the cumulative density function (CDF).
+    \item \code{\link{expValUnifD}}  gives the expected value.
+    \item \code{\link{varUnifD}}  gives the variance.
   }
 Invalid parameter values will return an error detailing which parameter is problematic.
 }

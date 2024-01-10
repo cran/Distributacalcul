@@ -62,7 +62,7 @@ TVatRCompBinom(
 )
 }
 \arguments{
-\item{x}{vector of quantiles.}
+\item{x}{vector of quantiles}
 
 \item{size}{Number of trials (0 or more).}
 
@@ -89,11 +89,11 @@ TVatRCompBinom(
 \value{
 Function :
   \itemize{
-    \item{\code{\link{pCompBinom}}}{ gives the cumulative density function.}
-    \item{\code{\link{expValCompBinom}}}{ gives the expected value.}
-    \item{\code{\link{varCompBinom}}}{ gives the variance.}
-    \item{\code{\link{TVatRCompBinom}}}{ gives the Tail Value-at-Risk.}
-    \item{\code{\link{VatRCompBinom}}}{ gives the Value-at-Risk.}
+    \item \code{\link{pCompBinom}}  gives the cumulative density function.
+    \item \code{\link{expValCompBinom}}  gives the expected value.
+    \item \code{\link{varCompBinom}}  gives the variance.
+    \item \code{\link{TVatRCompBinom}}  gives the Tail Value-at-Risk.
+    \item \code{\link{VatRCompBinom}}  gives the Value-at-Risk.
   }
 Returned values are approximations for the cumulative density function,
 TVaR, and VaR.

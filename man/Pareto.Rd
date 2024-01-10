@@ -38,15 +38,13 @@ VatRPareto(kap, shape, rate = 1/scale, scale = 1/rate)
 TVatRPareto(kap, shape, rate = 1/scale, scale = 1/rate)
 }
 \arguments{
-\item{x}{vector of quantiles.}
+\item{x, q}{vector of quantiles.}
 
 \item{shape}{shape parameter \eqn{\alpha}{alpha}, must be positive.}
 
 \item{rate}{rate parameter \eqn{\lambda}{lambda}, must be positive.}
 
 \item{scale}{alternative parameterization to the rate parameter, scale = 1 / rate.}
-
-\item{q}{vector of quantiles.}
 
 \item{lower.tail}{logical; if TRUE (default), probabilities are
     \eqn{P[X \le x]}, otherwise, \eqn{P[X > x]}.}
@@ -62,17 +60,17 @@ TVatRPareto(kap, shape, rate = 1/scale, scale = 1/rate)
 \value{
 Function :
   \itemize{
-    \item{\code{\link{dPareto}}}{ gives the probability density function (PDF).}
-    \item{\code{\link{pPareto}}}{ gives the cumulative density function (CDF).}
-    \item{\code{\link{expValPareto}}}{ gives the expected value.}
-    \item{\code{\link{varPareto}}}{ gives the variance.}
-    \item{\code{\link{kthMomentPareto}}}{ gives the kth moment.}
-    \item{\code{\link{expValLimPareto}}}{ gives the limited mean.}
-    \item{\code{\link{expValTruncPareto}}}{ gives the truncated mean.}
-    \item{\code{\link{stopLossPareto}}}{ gives the stop-loss.}
-    \item{\code{\link{meanExcessPareto}}}{ gives the mean excess loss.}
-    \item{\code{\link{VatRPareto}}}{ gives the Value-at-Risk.}
-    \item{\code{\link{TVatRPareto}}}{ gives the Tail Value-at-Risk.}
+    \item \code{\link{dPareto}}  gives the probability density function (PDF).
+    \item \code{\link{pPareto}}  gives the cumulative density function (CDF).
+    \item \code{\link{expValPareto}}  gives the expected value.
+    \item \code{\link{varPareto}}  gives the variance.
+    \item \code{\link{kthMomentPareto}}  gives the kth moment.
+    \item \code{\link{expValLimPareto}}  gives the limited mean.
+    \item \code{\link{expValTruncPareto}}  gives the truncated mean.
+    \item \code{\link{stopLossPareto}}  gives the stop-loss.
+    \item \code{\link{meanExcessPareto}}  gives the mean excess loss.
+    \item \code{\link{VatRPareto}}  gives the Value-at-Risk.
+    \item \code{\link{TVatRPareto}}  gives the Tail Value-at-Risk.
   }
  Invalid parameter values will return an error detailing which parameter is problematic.
 }
